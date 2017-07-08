@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>东风雷诺</title>
+<link rel="stylesheet" type="text/css" href="article.css"/>
+</head>
+
+<body >
+<div class="smde">
+<p>SEARCH经销商查询</p><a>MyRenault诺生活</a>
+</div>
+<div class="souye">
+<h2 ><img src="image/cccccccc_03.gif" width="164" height="50" /></h2>
+
+<ul><a>
+<li ><b><a href="index.html">首页</a> </b></li>
+<li><a href="list.html">车型</a><img src="image/s_03.gif" width="15" height="14" /></li>
+<li>品牌<img src="image/s_03.gif" width="15" height="14" /></li>
+<li>资讯<img src="image/s_03.gif" width="15" height="14" /></li>
+<li>体验</li>
+<li>搜索</li>
+</ul>
+<input type="text"  class="sousuo1"/><input type="button"class="sousuo2"/>
+</div>
+<div id="tup">
+<ul id="yy"><li><img src="image/0f44fb836160647b3a86502ecead4209.jpg" width="1200" height="560" /></li><li><img src="image/3427969bee35dbb19c6b9dfbd0488304.jpg" width="1200" height="560" /></li><li><img src="image/c059208b90632106536a459392a28adb.jpg" width="1200" height="560" /></li><li><img src="image/c3e576836cd92a5a8e2599d8c8d59048.jpg" width="1200" height="560" /></li></ul>
+</div>
+<div class="cx"><p>产品特征</p> <a><img src="image/东风雷诺官方网站_09.gif" width="276" height="40" /></a><img src="image/保时捷中国---保时捷股份公司_14.gif" width="100%" height="39" /></div>
+<div class="one">
+
+<img src="image/全新悦动---北京现代_02.gif" width="1308" height="5181" />
+</div> 
+
+<div class="zuihuo1">
+<ul>
+<li><h2>客户服务</h2><p> <br />售后活动<br /> 精品配件<br /> 联系我们<br /> 诺相随<br />
+经销商网络</p></li>
+
+<li><h2>经销商网络</h2><p> <br />经销商查询<br />
+购车助手</p></li>
+
+<li><h2>在线订购</h2><p><br />预约试驾<br /> 型录下载<br /> 促销信息<br />
+环保信息公开</p></li>
+
+<li><h2>环保信息公开</h2> <p><br />随车文件检索<br />
+关注雷诺官方微博</p>
+</li><img src="image/ssssss_06.gif" width="325" height="159"  class="dianhua"/><img src="image/oo_06.gif" width="283" height="143"  class="zzz"/>
+<img src="image/oo_08.gif" width="281" height="143"  class="zzz"/>
+
+</ul></div>
+<div class="zh2"><ul><li>加入我们</li><li>隐私条款</li><li>站点地图</li><li>法律声明</li><p> © 2015 东风雷诺汽车有限公司 鄂ICP备14001556号-1</p>
+ </ul></div>
+
+
+<script>
+var tup1=document.getElementById("tup");
+var yy1=document.getElementById("yy");
+yy1.innerHTML = yy1.innerHTML + yy1.innerHTML;
+yy1.style.width = 1200*8+'px';
+
+
+var ww=null;
+var ss=null;
+var dd=0;
+ss=setInterval(function(){
+	
+	dd=dd+1200;
+	ww=setInterval(function(){
+		if(yy1.offsetLeft==-dd){
+			clearInterval(ww)
+			} 
+			else {
+				if(-yy1.offsetLeft == yy1.offsetWidth/2){
+					yy1.style.left = 0;
+					dd=0;
+				}else{
+				yy1.style.left=yy1.offsetLeft-20+"px"
+				}
+			}},30)
+},3000)
+
+
+
+
+</script>
+</ul>
+</div>
+</body>
+</html>

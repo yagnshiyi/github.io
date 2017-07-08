@@ -1,0 +1,50 @@
+/* CSS Document */
+*{ margin:0; padding:0; font-family:"微软雅黑"; font-size:15px}
+.souye{ width:960px; height:80px; margin:0 auto;}
+.souye a{ text-decoration:none; color:#333333
+}
+.souye li{display:inline-block; margin-left:40px; padding-right:5px}
+.souye img{ margin-left:0px}
+.souye li:hover{ color:#666; }
+.souye ul{ margin-left:220px;  line-height:75px; display:inline-block}
+
+.souye h2{ margin-left:-110px; position:absolute; top:48px}
+#tup{ margin:0 auto; width:1200px; margin-top:-8px; height:560px; position:relative; overflow:hidden }
+#tup li{ display:inline-block; }
+#tup ul{position: absolute;left: 0px;top: 5px;
+}
+.cx{ margin: 0 auto; width:1200px; position:relative; margin-top:20px}
+.cx p{
+	position: absolute;
+	left: 565px;
+	z-index: 1;
+	font-size: 17px;
+	top: 80px;
+	color:#333333
+}
+.cx a{position: absolute;left: 460px;top: 3px;z-index: 1;}
+.cx img{  position:absolute; top:20px}
+.smde{ height:32px; background:#ececec}
+.smde p{ margin-left:1060px; font-size:12px; padding-top:10px}
+.smde a{ margin-left:1180px;font-size:12px; position:absolute; top:10px}
+.sousuo1{ margin-right:5px; margin-left:20px}
+.sousuo2{ background:url(image/cccc.gif); width:28px; height:25px}
+.one{ margin-top:10px}
+.zuihuo1{ background:#333333
+;  margin-top:70px; height:276px; position:relative}
+.zuihuo1 li{ display:inline-block; vertical-align:top; color:#FFF; margin-left:55px}
+.zuihuo1 ul{ width:625px;}
+.zuihuo1 h2{ font-size:18px; position:absolute; top:30px}
+.zuihuo1 p{ font-size:14px; margin-top:85px; line-height:25px}
+.zzz{ position:absolute; top:33px; left:1023px}
+.dianhua{ position:absolute; top:33px; left:625px; z-index:1}
+.zh2{ height:54px ; background:#000; color:#FFF; }
+.zh2 li{ display:inline-block; margin-left:44px;font-size:14px; margin-top:23px}
+.zh2 p{ font-size:14px; display:inline-block; margin-left:930px; margin-top:-27px}
+.tou{ width:1100px; margin:0 auto; margin-top:150px}
+.tou li{ display:inline-block;margin-top:10px; margin-left:8px;}
+.tou p{ font-size:18px ; margin-top:5px;}
+.tou span{ font-size:12px; color:#333;}
+.lj{text-decoration:none; color:#333333
+; font-size:12px; }
+
